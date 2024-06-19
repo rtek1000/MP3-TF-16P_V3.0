@@ -8,4 +8,4 @@ Some tips for using this poor clone of DFPlayer Mini
 - 3: The RESET command does not work if the module is locked (see tip 2).
 - 4: To unlock the module, reset the power (It may be necessary to use a transistor in the power supply).
 - 5: An interval of around [200ms](https://github.com/ghmartin77/DFPlayerAnalyzer/issues/10) is required between commands.
-- 6: Interval required after RESET command (maybe 250ms).
+- 6: Interval required after RESET command (or power initialization) (maybe 250ms).
