@@ -7,3 +7,5 @@ Some tips for using this poor clone of DFPlayer Mini
 - 2: The module may crash when data is being sent and the microcontroller is reset or reprogrammed.
 - 3: The RESET command does not work if the module is locked (see tip 2).
 - 4: To unlock the module, reset the power (It may be necessary to use a transistor in the power supply).
+- 5: An interval of around 200 ms is required between commands.
+- 6: Interval required after RESET command (maybe 250ms).
