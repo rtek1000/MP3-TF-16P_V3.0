@@ -11,3 +11,4 @@ Some tips for using this poor clone of DFPlayer Mini
 - 6: Interval required after RESET command (or power initialization) (maybe 250ms) (LED lights up dimly).
 - 7: If the data pins (Busy etc) receive more than 3.3V, it can be passed on to the SD card power supply (It may damage the SD card).
 - 8: Command 0x12 (MP3 folder) may not work, try command 0x03 (root directory).
+- 9: Powering with 5V may cause damage to the SD card and damage to the USBdisk (It no longer recognizes the memories on the computer).
