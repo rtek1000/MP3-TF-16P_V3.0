@@ -10,3 +10,4 @@ Some tips for using this poor clone of DFPlayer Mini
 - 5: An interval of around [200ms](https://github.com/ghmartin77/DFPlayerAnalyzer/issues/10) is required between commands (is slower than other models).
 - 6: Interval required after RESET command (or power initialization) (maybe 250ms) (LED lights up dimly).
 - 7: If the data pins (Busy etc) receive more than 3.3V, it can be passed on to the SD card power supply (It may damage the SD card).
+- 8: Command 0x12 (MP3 folder) may not work, try command 0x03 (root directory).
